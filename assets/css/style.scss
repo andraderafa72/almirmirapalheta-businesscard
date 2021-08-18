@@ -1,0 +1,53 @@
+@import './partials/colors';
+@import './partials/layout';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  @media(max-width: 1080px) {
+    font-size: 93.75%;
+  }
+  @media(max-width: 768px) {
+    font-size: 87.5%;
+  }
+}
+
+a:hover {
+  filter: brightness(.9);
+  transition: .4s;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 110%;
+  text-align: center;
+  color: $title;
+}
+
+h2 {
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  text-align: center;
+  color: $subtitle;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.visible {
+  display: flex;
+}
