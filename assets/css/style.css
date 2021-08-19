@@ -168,6 +168,9 @@ main section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .qr-code-modal button {
@@ -188,6 +191,8 @@ main section {
   text-decoration: none;
   border-radius: .5rem;
   max-width: 350px;
+  border: none;
+  font-size: 1.25rem;
 }
 
 .qr-code-modal img {
